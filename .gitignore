@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+
+# Models
+models/
+
+# Docker
+*.pid
+
+# Promptfoo
+promptfoo/results/
+
+# OS
+.DS_Store
+Thumbs.db
