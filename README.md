@@ -1,53 +1,231 @@
-# AI Security Research Lab
+<p align="center">
 
-> **Transforming Infrastructure, Networking and Cybersecurity experience into practical AI Security expertise through hands-on laboratories, research and documentation.**
+<img src="docs/images/github-banner.png" alt="AI Security Research Lab"/>
+
+</p>
+
+<h1 align="center">AI Security Research Lab</h1>
+
+<p align="center">
+
+<b>Building practical AI Security expertise through research, experimentation and reproducible laboratories.</b>
+
+</p>
+
+<p align="center">
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-black?style=for-the-badge)
+![Open WebUI](https://img.shields.io/badge/Open_WebUI-AI-blue?style=for-the-badge)
+![Promptfoo](https://img.shields.io/badge/Promptfoo-LLM%20Testing-red?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</p>
+
+<p align="center">
+
+![Research](https://img.shields.io/badge/Research-Active-success?style=flat-square)
+![Labs](https://img.shields.io/badge/Laboratories-12_Planned-blue?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-2-success?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
 
 ---
 
 # Mission
 
-Artificial Intelligence is changing the cybersecurity landscape.
+Artificial Intelligence is transforming cybersecurity at an unprecedented pace.
 
-Large Language Models are becoming part of enterprise environments, security products, development pipelines and business processes.
+Large Language Models are rapidly becoming part of enterprise environments, SOC platforms, cloud services, development pipelines and security products.
 
-Understanding how these systems work is no longer optional for security professionals.
+Understanding **how these systems actually work** is no longer optional for security professionals.
 
-This repository documents my complete journey from traditional Infrastructure and Security Engineering into AI Security through practical laboratories, technical research and reproducible experiments.
+The purpose of this repository is to document my transition from Infrastructure, Networking and Cybersecurity into **AI Security Engineering** through practical laboratories, technical research and reproducible experiments.
 
-The objective is not only to learn AI Security, but to understand how modern language models actually work before attempting to secure or attack them.
+Rather than focusing only on AI security tools, this project investigates the internal mechanisms of modern Large Language Models before studying how they can be attacked, evaluated and defended.
+
+Every laboratory is designed to be completely reproducible, allowing other professionals to follow the same learning path and build their own AI Security laboratory.
 
 ---
 
-# Project Goals
+# Why this project is different
 
-This project follows four major objectives.
+Many AI Security repositories focus primarily on demonstrating tools.
 
-- Build a complete local AI Security laboratory.
-- Study the internal architecture of Large Language Models.
-- Perform practical AI Security research.
-- Document every experiment with reproducible procedures.
+This project follows a different philosophy.
+
+Before studying Prompt Injection, Jailbreaks, Guardrails or AI Red Teaming, it is essential to understand how Large Language Models generate responses.
+
+Every laboratory follows the same research methodology:
+
+- Study the theoretical concepts
+- Build the laboratory
+- Execute practical experiments
+- Validate observations
+- Document technical findings
+- Publish reproducible results
+
+The objective is not simply to learn AI Security, but to understand the behaviour of Large Language Models from first principles.
+
+---
+
+# Architecture
+
+<p align="center">
+
+<img src="docs/images/architecture-overview.png" width="900">
+
+</p>
+
+The AI Security Research Lab is organised around four major pillars.
+
+- **Platform** – Local AI infrastructure built with Docker, Ollama and Open WebUI.
+- **Knowledge Base** – Living documentation covering LLM concepts and AI Security topics.
+- **Laboratories** – Practical experiments with complete technical documentation.
+- **Research** – Continuous investigation into AI attacks, defences and emerging techniques.
+
+This modular architecture allows every laboratory to build upon the previous one while keeping the repository organised and easy to reproduce.
+
+---
+
+# Current Laboratories
+
+The AI Security Research Lab is organised as a sequence of independent but interconnected laboratories.
+
+Each laboratory introduces new concepts, validates them through practical experimentation and documents the results with technical reports, screenshots and reproducible procedures.
+
+| Status | Laboratory | Description |
+|:------:|------------|-------------|
+| ✅ | **LAB-001** | AI Security Research Platform |
+| ✅ | **LAB-002** | LLM Fundamentals and Architecture |
+| 🔜 | **LAB-003** | Prompt Injection |
+| 🔜 | **LAB-004** | System Prompts |
+| 🔜 | **LAB-005** | Jailbreak Techniques |
+| 🔜 | **LAB-006** | Promptfoo Security Evaluation |
+| 🔜 | **LAB-007** | OWASP LLM Top 10 |
+| 🔜 | **LAB-008** | MITRE ATLAS |
+| 🔜 | **LAB-009** | Retrieval-Augmented Generation (RAG) Security |
+| 🔜 | **LAB-010** | AI Guardrails |
+| 🔜 | **LAB-011** | AI Agents Security |
+| 🔜 | **LAB-012** | AI Security Capstone |
 
 Every laboratory includes:
 
 - Objectives
-- Architecture
-- Practical experiments
 - Technical report
+- Practical experiments
 - Screenshots
 - Lessons learned
 - References
+- LinkedIn publication
+
+---
+
+# Knowledge Base
+
+<p align="center">
+
+<img src="docs/images/knowledge-map.png" width="850">
+
+</p>
+
+The Knowledge Base is a continuously growing collection of technical documentation that supports every laboratory.
+
+Instead of duplicating explanations inside each lab, common concepts are documented once and continuously refined as the research evolves.
+
+Current topics include:
+
+- Large Language Models
+- Tokens
+- Tokenization
+- Embeddings
+- Context Windows
+- Transformer Architecture
+- Attention Mechanism
+- Prompt Injection
+- Jailbreak Techniques
+- System Prompts
+- Retrieval-Augmented Generation (RAG)
+- Guardrails
+- OWASP LLM Top 10
+- MITRE ATLAS
+
+The objective is to build a practical AI Security reference that grows together with the laboratories.
+
+---
+
+# Platform Stack
+
+<p align="center">
+
+<img src="docs/images/platform-stack.png" width="850">
+
+</p>
+
+Every experiment is executed inside a fully local AI Security laboratory.
+
+The platform has been designed to minimise external dependencies while allowing complete control over models, prompts, datasets and evaluation tools.
+
+Current platform components include:
+
+- Ubuntu 24.04 LTS
+- Docker
+- Docker Compose
+- Ollama
+- Open WebUI
+- Promptfoo
+- Python
+- Git
+- GitHub
+
+Future integrations include:
+
+- LangChain
+- LlamaIndex
+- vLLM
+- NVIDIA NIM
+- MLflow
+- Neo4j
+- ChromaDB
+- OpenTelemetry
+- AI Red Team Frameworks
+
+---
+
+# Research Roadmap
+
+<p align="center">
+
+<img src="docs/images/roadmap.png" width="900">
+
+</p>
+
+The laboratories are intentionally organised as a progressive learning path.
+
+Each completed laboratory becomes the foundation for the next one.
+
+Rather than jumping directly into Prompt Injection or AI Red Teaming, the roadmap begins with understanding how Large Language Models internally process information.
+
+Only after mastering the fundamentals does the project move into offensive and defensive AI Security techniques.
+
+This incremental approach ensures that every security concept is supported by a solid technical understanding of the underlying model behaviour.
 
 ---
 
 # Repository Structure
 
-```
+The repository has been organised to clearly separate documentation, laboratories, platform configuration and research material.
+
+```text
 ai-security-research-lab
 │
 ├── docs/
 │   ├── adr/
 │   ├── architecture/
 │   ├── guides/
+│   ├── images/
 │   ├── references/
 │   └── research/
 │
@@ -60,167 +238,116 @@ ai-security-research-lab
 │
 ├── platform/
 │
-└── reports/
+├── reports/
+│
+└── README.md
 ```
 
----
-
-# Technology Stack
-
-Current platform:
-
-- Ubuntu 24.04 LTS
-- Docker
-- Docker Compose
-- Ollama
-- Open WebUI
-- Promptfoo
-- Git
-- GitHub
-- curl
-- jq
-
-Future technologies:
-
-- LangChain
-- LlamaIndex
-- vLLM
-- NVIDIA NIM
-- MLflow
-- MITRE ATLAS
-- OWASP LLM Top 10
-- Neo4j
-- Vector Databases
+This structure allows every laboratory to remain self-contained while sharing common documentation, platform components and AI Security knowledge.
 
 ---
 
-# Laboratory Roadmap
+# Latest Publications
 
-| Status | Laboratory |
-|---------|------------|
-| ✅ | LAB-001 – AI Security Research Platform |
-| ✅ | LAB-002 – LLM Fundamentals and Architecture |
-| 🔜 | LAB-003 – Prompt Injection |
-| 🔜 | LAB-004 – System Prompts |
-| 🔜 | LAB-005 – Jailbreak Techniques |
-| 🔜 | LAB-006 – Promptfoo Security Evaluation |
-| 🔜 | LAB-007 – OWASP LLM Top 10 |
-| 🔜 | LAB-008 – MITRE ATLAS |
-| 🔜 | LAB-009 – Retrieval-Augmented Generation (RAG) Security |
-| 🔜 | LAB-010 – Guardrails |
-| 🔜 | LAB-011 – AI Agents Security |
-| 🔜 | LAB-012 – AI Security Capstone |
+Every completed laboratory is accompanied by a technical article summarising the research and the practical experiments.
 
----
+| Laboratory | Publication |
+|------------|-------------|
+| LAB-001 | Building an AI Security Research Platform |
+| LAB-002 | Understanding LLM Fundamentals and Architecture |
 
-# Knowledge Base
-
-The repository also contains a growing knowledge base covering fundamental AI Security concepts.
-
-Current topics include:
-
-- LLM Fundamentals
-- Tokens
-- Tokenization
-- Embeddings
-- Context Windows
-- Attention Mechanism
-- Transformer Architecture
-- Prompt Injection
-- Jailbreak
-- System Prompts
-- Guardrails
-- RAG Security
-- OWASP LLM Top 10
-- MITRE ATLAS
-
-The knowledge base grows together with each laboratory.
-
----
-
-# Current Progress
-
-| Area | Status |
-|------|--------|
-| Local AI Platform | ✅ |
-| Ollama | ✅ |
-| Open WebUI | ✅ |
-| Docker Environment | ✅ |
-| LLM Fundamentals | ✅ |
-| Prompt Engineering | ✅ |
-| Prompt Injection | 🔜 |
-| AI Security Testing | 🔜 |
-| RAG Security | 🔜 |
-| AI Agents | 🔜 |
+Future articles will continue to document the evolution of the laboratory as new AI Security topics are explored.
 
 ---
 
 # Research Philosophy
 
-The purpose of this project is not to copy tutorials.
+Artificial Intelligence is evolving faster than traditional security methodologies.
 
-Every concept is first understood theoretically and then validated experimentally inside a local laboratory.
+Many professionals begin by learning Prompt Injection techniques, AI Red Teaming frameworks or Guardrail solutions without first understanding how Large Language Models actually generate responses.
 
-The emphasis is placed on understanding:
+This project follows a different philosophy.
 
-- Why the model behaves as it does.
-- Which internal mechanisms influence its responses.
-- Which attack surfaces exist.
-- How security controls can be implemented.
-- How theoretical concepts translate into practical security research.
+Understanding the internal behaviour of a Large Language Model is considered a prerequisite for understanding its attack surface.
 
----
-
-# Laboratory Methodology
-
-Every laboratory follows the same methodology.
+Every laboratory follows the same scientific methodology.
 
 1. Study the theory.
 2. Build the environment.
-3. Execute practical experiments.
+3. Perform practical experiments.
 4. Validate the observations.
-5. Document the results.
-6. Publish the findings.
+5. Document the technical findings.
+6. Publish reproducible results.
 
-This approach allows every laboratory to be independently reproduced.
+This methodology ensures that every conclusion presented in this repository is supported by practical experimentation rather than theoretical assumptions.
+
+The ultimate objective is not simply to learn AI Security tools, but to develop the mindset and methodology required to conduct independent AI Security research.
 
 ---
 
-# Future Research Areas
+# Current Research Areas
 
-Some planned research topics include:
+Current and future research topics include:
 
+- Large Language Models
+- Transformer Architecture
+- Prompt Engineering
 - Prompt Injection
+- System Prompts
+- Jailbreak Techniques
 - Prompt Leakage
-- Model Alignment
+- Promptfoo Security Evaluation
+- OWASP LLM Top 10
+- MITRE ATLAS
+- Retrieval-Augmented Generation (RAG)
+- AI Guardrails
+- AI Agents Security
 - AI Red Teaming
 - AI Blue Teaming
-- LLM Firewalls
-- AI SOC
-- Agentic AI
 - AI Incident Response
+- Secure AI Architectures
 - AI Governance
-- Secure RAG
-- AI Supply Chain Security
 
 ---
 
-# About
-
-This repository documents my personal transition towards AI Security Engineering through continuous research and practical experimentation.
-
-Every laboratory is built, tested and documented inside a local environment before publication.
-
----
-
-# Author
+# About the Author
 
 **Carlos M. S. Rodrigues**
 
 Infrastructure • Networking • Cybersecurity • AI Security Research
 
+This repository documents my ongoing transition towards AI Security Engineering through continuous research, practical experimentation and technical documentation.
+
+Every laboratory is built, tested and validated in a fully local environment before publication.
+
+The long-term objective is to contribute practical and reproducible research to the growing field of AI Security.
+
+---
+
+# Contributing
+
+Contributions, discussions and constructive feedback are always welcome.
+
+If you identify improvements, discover new attack techniques or wish to collaborate on AI Security research, feel free to open an Issue or submit a Pull Request.
+
 ---
 
 # License
 
-This project is released under the MIT License.
+This project is released under the **MIT License**.
+
+---
+
+# Connect
+
+If you find this repository useful, consider:
+
+⭐ Starring the repository
+
+🍴 Following the project
+
+💬 Sharing feedback
+
+🤝 Connecting with me on LinkedIn
+
+AI Security is still an emerging discipline, and the best way to learn is by building, experimenting and sharing knowledge with the community.
