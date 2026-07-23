@@ -1,23 +1,39 @@
 # Python
 __pycache__/
 *.pyc
-.venv/
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
 
 # VS Code
 .vscode/
 
-# Logs
-logs/
+# JetBrains
+.idea/
 
-# Models
-models/
+# Temporary files
+*.tmp
 
-# Docker
-*.pid
+# Local backups
+platform/data/backups/
 
-# Promptfoo
-promptfoo/results/
+# Open WebUI cache
+platform/data/storage/open-webui/cache/
 
-# OS
-.DS_Store
-Thumbs.db
+# Chroma temporary files
+platform/data/storage/open-webui/vector_db/*.wal
+platform/data/storage/open-webui/vector_db/*.shm
+
+# Ollama runtime
+platform/logs/
+
+# Open WebUI databases
+platform/data/storage/open-webui/webui.db
+platform/data/storage/open-webui/vector_db/
