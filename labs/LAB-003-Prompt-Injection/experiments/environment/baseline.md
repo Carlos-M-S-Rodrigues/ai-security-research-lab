@@ -35,33 +35,33 @@ ollama version is 0.30.8
 ## Installed Models
 
 ```text
-NAME             ID              SIZE      MODIFIED    
-llama3:latest    365c0bd3c000    4.7 GB    6 weeks ago    
+NAME             ID              SIZE      MODIFIED
+llama3:latest    365c0bd3c000    4.7 GB    6 weeks ago
 ```
 
 ## Model Information
 
 ```text
   Model
-    architecture        llama    
-    parameters          8.0B     
-    context length      8192     
-    embedding length    4096     
-    quantization        Q4_0     
+    architecture        llama
+    parameters          8.0B
+    context length      8192
+    embedding length    4096
+    quantization        Q4_0
 
   Capabilities
-    completion    
+    completion
 
   Parameters
-    num_keep    24                       
-    stop        "<|start_header_id|>"    
-    stop        "<|end_header_id|>"      
-    stop        "<|eot_id|>"             
+    num_keep    24
+    stop        "<|start_header_id|>"
+    stop        "<|end_header_id|>"
+    stop        "<|eot_id|>"
 
   License
-    META LLAMA 3 COMMUNITY LICENSE AGREEMENT             
-    Meta Llama 3 Version Release Date: April 18, 2024    
-    ...                                                  
+    META LLAMA 3 COMMUNITY LICENSE AGREEMENT
+    Meta Llama 3 Version Release Date: April 18, 2024
+    ...
 
 ```
 
