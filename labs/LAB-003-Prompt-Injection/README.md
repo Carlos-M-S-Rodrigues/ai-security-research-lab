@@ -6,7 +6,7 @@
 
 ## Status
 
-🚧 Research design and theoretical foundation in progress.
+✅ Completed — eight experiments, formal evidence, comparative analysis and technical report published.
 
 ## Objective
 
