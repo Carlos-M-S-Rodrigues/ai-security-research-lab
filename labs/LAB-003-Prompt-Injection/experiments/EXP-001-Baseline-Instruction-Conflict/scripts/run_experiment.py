@@ -140,7 +140,7 @@ def preflight(
     protocol_text = README.read_text(encoding="utf-8")
 
     status_pattern = re.compile(
-        r"^[*-]\\s+Status:\\s+Pre-registered\\s*$",
+        r"^[*-]\s+Status:\s+Pre-registered\s*$",
         flags=re.MULTILINE,
     )
 
