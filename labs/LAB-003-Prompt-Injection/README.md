@@ -1,5 +1,9 @@
 # LAB-003 — Prompt Injection
 
+<p align="center">
+  <img src="screenshots/lab-003-prompt-injection-cover.png" alt="LAB-003 Prompt Injection cover" width="100%">
+</p>
+
 ## Status
 
 🚧 Research design and theoretical foundation in progress.

@@ -1,5 +1,9 @@
 # System Prompts Are Not a Security Boundary
 
+<p align="center">
+  <img src="../screenshots/lab-003-prompt-injection-cover.png" alt="LAB-003 Prompt Injection cover" width="100%">
+</p>
+
 ## What 194 Prompt Injection Tests Revealed About LLM Instruction Integrity
 
 Large Language Models are increasingly being connected to enterprise data, knowledge bases, APIs, automation platforms and security tools.
