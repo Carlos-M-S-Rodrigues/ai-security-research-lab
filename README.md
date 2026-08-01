@@ -42,7 +42,7 @@ Large Language Models are rapidly becoming part of enterprise environments, SOC 
 
 Understanding **how these systems actually work** is no longer optional for security professionals.
 
-The purpose of this repository is to document my transition from Infrastructure, Networking and Cybersecurity into **AI Security Engineering** through practical laboratories, technical research and reproducible experiments.
+The purpose of this repository is to investigate **AI Security Engineering** through practical laboratories, technical research and reproducible experiments, building upon a professional background in Infrastructure, Networking and Cybersecurity.
 
 Rather than focusing only on AI security tools, this project investigates the internal mechanisms of modern Large Language Models before studying how they can be attacked, evaluated and defended.
 
