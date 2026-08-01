@@ -1,5 +1,11 @@
 # LAB-001 — AI Security Research Platform
 
+<p align="center">
+  <img src="screenshots/Linkedin_Lab1_new.png"
+       alt="LAB-001 — AI Security Research Platform"
+       width="100%">
+</p>
+
 ## Status
 
 ✅ Completed — local AI Security platform deployed, validated and

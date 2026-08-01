@@ -1,5 +1,11 @@
 # LAB-002 — LLM Fundamentals and Architecture
 
+<p align="center">
+  <img src="screenshots/Article_lab2.2.png"
+       alt="LAB-002 — LLM Fundamentals and Architecture"
+       width="100%">
+</p>
+
 ## Status
 
 ✅ Completed — theoretical foundation, practical experiments,
