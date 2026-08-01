@@ -6,7 +6,7 @@
 * Title: Direct Instruction Override
 * Status: Pre-registered
 * Pilot execution started: Yes
-* Formal execution started: No
+* Formal execution started: Yes
 * Formal results collected: No
 * Parent laboratory: LAB-003 — Prompt Injection
 * Predecessor: EXP-001 — Baseline Instruction Conflict
