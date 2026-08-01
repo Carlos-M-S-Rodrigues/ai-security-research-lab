@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 from datetime import datetime
@@ -138,7 +139,12 @@ def preflight(
 
     protocol_text = README.read_text(encoding="utf-8")
 
-    if "- Status: Pre-registered" not in protocol_text:
+    status_pattern = re.compile(
+        r"^[*-]\\s+Status:\\s+Pre-registered\\s*$",
+        flags=re.MULTILINE,
+    )
+
+    if status_pattern.search(protocol_text) is None:
         raise RuntimeError(
             "Protocol is not marked Pre-registered. "
             "No experiment may be executed."
