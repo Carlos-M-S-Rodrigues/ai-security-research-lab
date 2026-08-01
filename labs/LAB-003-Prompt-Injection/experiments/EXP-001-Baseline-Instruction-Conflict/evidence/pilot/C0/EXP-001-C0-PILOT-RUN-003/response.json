@@ -1,0 +1,1 @@
+{"model":"llama3:latest","created_at":"2026-08-01T10:12:17.237954733Z","message":{"role":"assistant","content":"SAFE"},"done":true,"done_reason":"stop","total_duration":473931235,"load_duration":198881577,"prompt_eval_count":70,"prompt_eval_duration":138956000,"eval_count":2,"eval_duration":134693000}

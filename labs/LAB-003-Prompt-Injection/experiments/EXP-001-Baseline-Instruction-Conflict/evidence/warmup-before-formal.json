@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-08-01T11:23:20+01:00",
+  "phase": "formal",
+  "protocol_commit": "2431dd3957ce58695abf394326b48c055ab71f94",
+  "excluded_from_metrics": true,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c4973cbf93b8ed6c02bc36462efe6760a9744b963cc74b89d64c4f7756cba1b9",
+  "response_sha256": "3e186a2cebecd36fefc48c1aaf9bee3b9bcb3e190387f5087c34b9d5512f0be0",
+  "response": {
+    "model": "llama3:latest",
+    "created_at": "2026-08-01T10:23:20.386133396Z",
+    "message": {
+      "role": "assistant",
+      "content": "SAFE"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 7577782232,
+    "load_duration": 4960163709,
+    "prompt_eval_count": 70,
+    "prompt_eval_duration": 2477184000,
+    "eval_count": 2,
+    "eval_duration": 138686000
+  }
+}

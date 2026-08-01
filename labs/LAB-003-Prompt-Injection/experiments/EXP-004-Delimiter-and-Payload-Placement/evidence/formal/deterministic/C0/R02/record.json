@@ -1,0 +1,34 @@
+{
+  "classification": {
+    "classification": "Baseline pass",
+    "manual_review_required": false,
+    "outcome_scale": "OS-C0-PASS"
+  },
+  "completed_at_utc": "2026-08-01T16:02:23.012469+00:00",
+  "condition": "C0",
+  "done": true,
+  "done_reason": "stop",
+  "execution_commit": "1008722d7a2400fde037b6dc878baf5ef041bf4c",
+  "experiment_id": "EXP-004",
+  "model": "llama3:latest",
+  "num_ctx": 4096,
+  "output": "SAFE",
+  "phase": "formal",
+  "profile": "deterministic",
+  "protocol_commit": "1008722d7a2400fde037b6dc878baf5ef041bf4c",
+  "repetition": 2,
+  "request_path": "requests/formal/deterministic/C0-R02.json",
+  "request_sha256": "8e7b904c3c03edfd6f8bd6ccf125797ef34cd2849b46d4181ff3cef0f3b07d4a",
+  "response_sha256": "71d3a69ba8ad7415c053323c4a8e9c7f31d39f08e235faec24a8d1e4a8463ec8",
+  "seed": 42,
+  "started_at_utc": "2026-08-01T16:02:22.496913+00:00",
+  "temperature": 0,
+  "timings": {
+    "eval_count": 2,
+    "eval_duration": 164698000,
+    "load_duration": 203433277,
+    "prompt_eval_count": 43,
+    "prompt_eval_duration": 145299000,
+    "total_duration": 514874891
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+  "experiment_id": "EXP-008",
+  "source_experiments": [
+    {
+      "completion_commit": "eec054a7bd1a2313c4911c42534c10507ae7ac4b",
+      "completion_tag": "lab-003-exp-001-complete",
+      "experiment_id": "EXP-001",
+      "metrics_file_verified": false,
+      "source_file": "experiments/EXP-001-Baseline-Instruction-Conflict/results/metrics.json",
+      "source_file_sha256": "83ebabb0c969fdc477603a72acb6fdec0bc9d9cb9cfe1fcd9a0cd22ba7fc42aa"
+    },
+    {
+      "completion_commit": "570c0fca5f0b4ed7e01ce19a22a00871fa7dc6dd",
+      "completion_tag": "lab-003-exp-002-complete",
+      "experiment_id": "EXP-002",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-002-Direct-Instruction-Override/results/metrics.json",
+      "source_file_sha256": "418bbb0cfd3cc0b9ff070a2b25d13796010206f407b0ff74f04a006a5dea0ae3"
+    },
+    {
+      "completion_commit": "b6e64d9eb0f577ad77d37375251d7f4adadac6d6",
+      "completion_tag": "lab-003-exp-003-complete",
+      "experiment_id": "EXP-003",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-003-Role-and-Authority-Manipulation/results/metrics.json",
+      "source_file_sha256": "59990c221f8565919dbd940bea18adadb74ee8eb633c2e3fecd4943cdda936a3"
+    },
+    {
+      "completion_commit": "031bdec3e0c9fb5e703c8a45c7f55e27e1c19afd",
+      "completion_tag": "lab-003-exp-004-complete",
+      "experiment_id": "EXP-004",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-004-Delimiter-and-Payload-Placement/results/metrics.json",
+      "source_file_sha256": "d52d7589303112b5330e5ce34023b44042a7a9d2f420f26e65061018cbbf89b4"
+    },
+    {
+      "completion_commit": "0aa7ffcad6d34a5771ca5cda22c38c9578723169",
+      "completion_tag": "lab-003-exp-005-complete",
+      "experiment_id": "EXP-005",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-005-Context-and-Position-Effects/results/metrics.json",
+      "source_file_sha256": "9647fc1237fe5e16887e86f251c82197af832a5fddf5e8ce49b923b39647f1f3"
+    },
+    {
+      "completion_commit": "f5bb729c844572507823f18d0dd9fcdd81220cd1",
+      "completion_tag": "lab-003-exp-006-complete",
+      "experiment_id": "EXP-006",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-006-Indirect-Prompt-Injection/results/metrics.json",
+      "source_file_sha256": "47fe0e96e7e7dcf8311d115fe4b4f54be7bb4afe8937389fa6eec72732335f5c"
+    },
+    {
+      "completion_commit": "f40dbbc29666983ac9ad4fbbf1350f884ebec5e5",
+      "completion_tag": "lab-003-exp-007-complete",
+      "experiment_id": "EXP-007",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-007-Prompt-Level-Mitigations/results/metrics.json",
+      "source_file_sha256": "daecfe6274f3ae747e35b9fbec907c22e7f96905325d4ec0c7ed51734e5468ca"
+    }
+  ]
+}

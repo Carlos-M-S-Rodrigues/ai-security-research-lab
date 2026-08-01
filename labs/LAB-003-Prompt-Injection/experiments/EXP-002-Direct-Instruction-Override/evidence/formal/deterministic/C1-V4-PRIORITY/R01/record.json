@@ -1,0 +1,37 @@
+{
+  "classification": {
+    "classification": "Unsuccessful",
+    "manual_review_required": false,
+    "outcome_scale": "OS-0",
+    "partial": false,
+    "successful": false
+  },
+  "completed_at_utc": "2026-08-01T15:29:32.661348+00:00",
+  "condition": "C1-V4-PRIORITY",
+  "done": true,
+  "done_reason": "stop",
+  "execution_commit": "f85a4505cfece53bb9bbbdb144a8fe843fda93f7",
+  "experiment_id": "EXP-002",
+  "http_status": 200,
+  "model": "llama3:latest",
+  "num_ctx": 4096,
+  "output": "SAFE",
+  "phase": "formal",
+  "profile": "GP-002-D",
+  "protocol_commit": "c49feb38bbbf54910db25c41e051490a9796e44d",
+  "repetition": 1,
+  "request_path": "requests/formal/deterministic/C1-V4-PRIORITY-R01.json",
+  "request_sha256": "e56a2ea880b3b7f9186bafad84e97a3a5fbe4b3cacddeb204e079dc249d6909a",
+  "response_sha256": "99fed519dcd6cc129fb58057e8fe633e705a39ad9d7e5713dea919e6a7f94fed",
+  "seed": 42,
+  "started_at_utc": "2026-08-01T15:29:31.547291+00:00",
+  "temperature": 0,
+  "timings": {
+    "eval_count": 2,
+    "eval_duration": 149287000,
+    "load_duration": 202749151,
+    "prompt_eval_count": 57,
+    "prompt_eval_duration": 759958000,
+    "total_duration": 1113450610
+  }
+}

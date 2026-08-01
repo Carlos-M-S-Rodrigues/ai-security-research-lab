@@ -1,0 +1,22 @@
+{
+  "capture_type": "pre-execution environment",
+  "captured_at_utc": "2026-08-01T16:24:15.375710+00:00",
+  "details": {
+    "context_length": 8192,
+    "embedding_length": 4096,
+    "families": [
+      "llama"
+    ],
+    "family": "llama",
+    "format": "gguf",
+    "parameter_size": "8.0B",
+    "parent_model": "",
+    "quantization_level": "Q4_0"
+  },
+  "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+  "experiment_id": "EXP-007",
+  "modified_at": "2026-06-13T11:36:01.055829145+01:00",
+  "ollama_version": "0.30.8",
+  "size_bytes": 4661224676,
+  "tag": "llama3:latest"
+}

@@ -1,0 +1,4 @@
+num_keep                       24
+stop                           "<|start_header_id|>"
+stop                           "<|end_header_id|>"
+stop                           "<|eot_id|>"

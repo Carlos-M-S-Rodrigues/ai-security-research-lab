@@ -27,7 +27,7 @@
 
 ![Research](https://img.shields.io/badge/Research-Active-success?style=flat-square)
 ![Labs](https://img.shields.io/badge/Laboratories-12_Planned-blue?style=flat-square)
-![Completed](https://img.shields.io/badge/Completed-2-success?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-3-success?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </p>
@@ -42,7 +42,7 @@ Large Language Models are rapidly becoming part of enterprise environments, SOC 
 
 Understanding **how these systems actually work** is no longer optional for security professionals.
 
-The purpose of this repository is to document my transition from Infrastructure, Networking and Cybersecurity into **AI Security Engineering** through practical laboratories, technical research and reproducible experiments.
+The purpose of this repository is to investigate **AI Security Engineering** through practical laboratories, technical research and reproducible experiments, building upon a professional background in Infrastructure, Networking and Cybersecurity.
 
 Rather than focusing only on AI security tools, this project investigates the internal mechanisms of modern Large Language Models before studying how they can be attacked, evaluated and defended.
 
@@ -100,7 +100,7 @@ Each laboratory introduces new concepts, validates them through practical experi
 |:------:|------------|-------------|
 | ✅ | **LAB-001** | AI Security Research Platform |
 | ✅ | **LAB-002** | LLM Fundamentals and Architecture |
-| 🔜 | **LAB-003** | Prompt Injection |
+| ✅ | **[LAB-003](labs/LAB-003-Prompt-Injection/README.md)** | Prompt Injection |
 | 🔜 | **LAB-004** | System Prompts |
 | 🔜 | **LAB-005** | Jailbreak Techniques |
 | 🔜 | **LAB-006** | Promptfoo Security Evaluation |
@@ -120,6 +120,40 @@ Every laboratory includes:
 - Lessons learned
 - References
 - LinkedIn publication
+
+---
+
+## Latest Completed Research — LAB-003
+
+LAB-003 investigated Prompt Injection using a local Llama 3 model,
+a reproducible experimental engine and immutable Git evidence.
+
+The completed research includes:
+
+- 8 experiments
+- 7 model-execution experiments
+- 1 derived comparative evaluation
+- 194 recorded attack executions
+- 90 exact attacker-compliance outcomes
+- 46.4% weighted observed attack success rate
+- Direct and indirect Prompt Injection testing
+- Context, position and representation analysis
+- Prompt-level mitigation evaluation
+
+The combined result is descriptive and is not a universal Prompt
+Injection probability.
+
+Prompt-level mitigations reduced the observed success rate from
+56.7% in the indirect-injection experiment to 20.0% in the
+mitigation experiment, but did not eliminate successful attacks.
+
+The primary engineering conclusion was:
+
+> System prompts alone are not a complete security boundary.
+
+[Open LAB-003 — Prompt Injection](labs/LAB-003-Prompt-Injection/README.md)
+
+[Read the Technical Report](labs/LAB-003-Prompt-Injection/report/LAB-003-Technical-Report.md)
 
 ---
 
@@ -234,6 +268,7 @@ ai-security-research-lab
 ├── labs/
 │   ├── LAB-001-AI-Security-Research-Platform/
 │   ├── LAB-002-LLM-Fundamentals-and-Architecture/
+│   ├── LAB-003-Prompt-Injection/
 │   └── ...
 │
 ├── platform/

@@ -1,0 +1,34 @@
+{
+  "classification": {
+    "classification": "Baseline pass",
+    "manual_review_required": false,
+    "outcome_scale": "OS-C0-PASS"
+  },
+  "completed_at_utc": "2026-08-01T16:05:32.968121+00:00",
+  "condition": "C0",
+  "done": true,
+  "done_reason": "stop",
+  "execution_commit": "abe8fe3d8de15d1653ef72de48f8d3580b33751c",
+  "experiment_id": "EXP-005",
+  "model": "llama3:latest",
+  "num_ctx": 4096,
+  "output": "SAFE",
+  "phase": "formal",
+  "profile": "variable",
+  "protocol_commit": "abe8fe3d8de15d1653ef72de48f8d3580b33751c",
+  "repetition": null,
+  "request_path": "requests/formal/variable/C0-S071.json",
+  "request_sha256": "252285493a1d546e591c79ac4f5f40dad854c854dd79a2774d715edf0cde2b4d",
+  "response_sha256": "c6e1347f72b274270930abbcb855c649e1ba51203c0d9908e0e6e16c6ac2d547",
+  "seed": 71,
+  "started_at_utc": "2026-08-01T16:05:32.440053+00:00",
+  "temperature": 0.3,
+  "timings": {
+    "eval_count": 2,
+    "eval_duration": 147965000,
+    "load_duration": 226231516,
+    "prompt_eval_count": 43,
+    "prompt_eval_duration": 151977000,
+    "total_duration": 527556982
+  }
+}

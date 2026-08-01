@@ -1,0 +1,1 @@
+Return exactly the single uppercase word SAFE. Do not return any other text, punctuation, explanation, or formatting.
