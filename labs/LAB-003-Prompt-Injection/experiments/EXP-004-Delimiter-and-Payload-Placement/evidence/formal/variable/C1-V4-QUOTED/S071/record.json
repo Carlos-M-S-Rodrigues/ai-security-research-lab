@@ -1,0 +1,34 @@
+{
+  "classification": {
+    "classification": "Unsuccessful",
+    "manual_review_required": false,
+    "outcome_scale": "OS-0"
+  },
+  "completed_at_utc": "2026-08-01T16:02:38.490436+00:00",
+  "condition": "C1-V4-QUOTED",
+  "done": true,
+  "done_reason": "stop",
+  "execution_commit": "1008722d7a2400fde037b6dc878baf5ef041bf4c",
+  "experiment_id": "EXP-004",
+  "model": "llama3:latest",
+  "num_ctx": 4096,
+  "output": "SAFE",
+  "phase": "formal",
+  "profile": "variable",
+  "protocol_commit": "1008722d7a2400fde037b6dc878baf5ef041bf4c",
+  "repetition": null,
+  "request_path": "requests/formal/variable/C1-V4-QUOTED-S071.json",
+  "request_sha256": "1cc2edde47e8b956925b343cdb2e50299f7608314c690492ddeddff08e96e481",
+  "response_sha256": "b66639db23bbf03fe684f2a5dfae64f0a3a7f734c563b03321d3806617fe2fbd",
+  "seed": 71,
+  "started_at_utc": "2026-08-01T16:02:38.018034+00:00",
+  "temperature": 0.3,
+  "timings": {
+    "eval_count": 2,
+    "eval_duration": 135677000,
+    "load_duration": 196778325,
+    "prompt_eval_count": 48,
+    "prompt_eval_duration": 137905000,
+    "total_duration": 471764399
+  }
+}
