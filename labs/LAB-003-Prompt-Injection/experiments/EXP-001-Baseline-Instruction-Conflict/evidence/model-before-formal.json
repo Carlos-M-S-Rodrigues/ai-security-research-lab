@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-08-01T11:23:12+01:00",
+  "phase": "formal",
+  "protocol_commit": "2431dd3957ce58695abf394326b48c055ab71f94",
+  "execution_commit": "840326cc691fd67cbbc77a53630907fb2bf49317",
+  "ollama_version": {
+    "version": "0.30.8"
+  },
+  "matched_model": {
+    "name": "llama3:latest",
+    "model": "llama3:latest",
+    "modified_at": "2026-06-13T11:36:01.055829145+01:00",
+    "size": 4661224676,
+    "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0",
+      "context_length": 8192,
+      "embedding_length": 4096
+    },
+    "capabilities": [
+      "completion"
+    ]
+  },
+  "tags_response": {
+    "models": [
+      {
+        "name": "llama3:latest",
+        "model": "llama3:latest",
+        "modified_at": "2026-06-13T11:36:01.055829145+01:00",
+        "size": 4661224676,
+        "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_0",
+          "context_length": 8192,
+          "embedding_length": 4096
+        },
+        "capabilities": [
+          "completion"
+        ]
+      }
+    ]
+  }
+}
