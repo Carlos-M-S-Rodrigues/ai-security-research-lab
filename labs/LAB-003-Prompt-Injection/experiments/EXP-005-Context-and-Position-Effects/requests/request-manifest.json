@@ -1,0 +1,343 @@
+{
+  "condition_count": 5,
+  "deterministic_repetitions": 3,
+  "experiment_id": "EXP-005",
+  "request_count": 30,
+  "requests": [
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C0-R01.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 1,
+      "request_sha256": "8e7b904c3c03edfd6f8bd6ccf125797ef34cd2849b46d4181ff3cef0f3b07d4a",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C0-R02.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 2,
+      "request_sha256": "8e7b904c3c03edfd6f8bd6ccf125797ef34cd2849b46d4181ff3cef0f3b07d4a",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C0-R03.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 3,
+      "request_sha256": "8e7b904c3c03edfd6f8bd6ccf125797ef34cd2849b46d4181ff3cef0f3b07d4a",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/variable/C0-S011.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "74bce7dec4f3409e27f5228a3402e0ca4aa66386656bd23a7c3609b4a81100ec",
+      "seed": 11,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/variable/C0-S037.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "ecb27ed965bb3835d6c216a33bc12800ab06780d1ea554bb16d17951d7bca4bb",
+      "seed": 37,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C0",
+      "num_ctx": 4096,
+      "path": "formal/variable/C0-S071.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "252285493a1d546e591c79ac4f5f40dad854c854dd79a2774d715edf0cde2b4d",
+      "seed": 71,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V1-PAYLOAD-ONLY-R01.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 1,
+      "request_sha256": "1561e5d725a6530cf0e900bb9697355fbae9e13b0fa2d0060617797db407aaa7",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V1-PAYLOAD-ONLY-R02.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 2,
+      "request_sha256": "1561e5d725a6530cf0e900bb9697355fbae9e13b0fa2d0060617797db407aaa7",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V1-PAYLOAD-ONLY-R03.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 3,
+      "request_sha256": "1561e5d725a6530cf0e900bb9697355fbae9e13b0fa2d0060617797db407aaa7",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V1-PAYLOAD-ONLY-S011.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "44659714073727171dc23f48390f7e16ffaf8a75671d674311958c47fe8c4b0c",
+      "seed": 11,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V1-PAYLOAD-ONLY-S037.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "b8909382dff47fd69b2ebde7d43a000a0db811d81b0c67035a74538d0bf782d2",
+      "seed": 37,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V1-PAYLOAD-ONLY",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V1-PAYLOAD-ONLY-S071.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "500c931cd2e1be33042840189d9bfe0ed98a2d0b0b1b489c9a029ccd41e3bc8e",
+      "seed": 71,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V2-FIRST-R01.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 1,
+      "request_sha256": "083cb77ce22b158a0f0afc1b16af3e26adb0cbe2d975f134af47719e155eac1d",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V2-FIRST-R02.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 2,
+      "request_sha256": "083cb77ce22b158a0f0afc1b16af3e26adb0cbe2d975f134af47719e155eac1d",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V2-FIRST-R03.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 3,
+      "request_sha256": "083cb77ce22b158a0f0afc1b16af3e26adb0cbe2d975f134af47719e155eac1d",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V2-FIRST-S011.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "28cb9bbceca02bac35d9b7b5f2fb69f0eb421e070b5ab21da33ecc98ef8aa8fa",
+      "seed": 11,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V2-FIRST-S037.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "c217726f49229ab9312f3e80a445bf78b57d9249a9e5bc4568ec5c1729bfd176",
+      "seed": 37,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V2-FIRST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V2-FIRST-S071.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "85db2f8482fdd7fbfca508b39bd36255cddffc9a4887638f6c24ca2cfd0dce1e",
+      "seed": 71,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V3-MIDDLE-R01.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 1,
+      "request_sha256": "01b7e312b3b57de4615d316e028f73db4a6407623681b2f3f1304fb4e3fa6260",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V3-MIDDLE-R02.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 2,
+      "request_sha256": "01b7e312b3b57de4615d316e028f73db4a6407623681b2f3f1304fb4e3fa6260",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V3-MIDDLE-R03.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 3,
+      "request_sha256": "01b7e312b3b57de4615d316e028f73db4a6407623681b2f3f1304fb4e3fa6260",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V3-MIDDLE-S011.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "1d5b145643be6ceaf7105bc999cc52228ee937d9ec81fb17ced5d5ab83b72f84",
+      "seed": 11,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V3-MIDDLE-S037.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "4a0f59e3431773841f9152fb4202e9bd9234e8eec525c32f66aee329688e1e7f",
+      "seed": 37,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V3-MIDDLE",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V3-MIDDLE-S071.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "577e12123428881a8644a71ffc6e85f4172e4555e0286413b3cd56dbfe9822a0",
+      "seed": 71,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V4-LAST-R01.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 1,
+      "request_sha256": "0965c41caff571f2970a7c93ffac8f6e23fdc25bdc9249c2a9c811d1b37364cf",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V4-LAST-R02.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 2,
+      "request_sha256": "0965c41caff571f2970a7c93ffac8f6e23fdc25bdc9249c2a9c811d1b37364cf",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/deterministic/C1-V4-LAST-R03.json",
+      "phase": "formal",
+      "profile": "deterministic",
+      "repetition": 3,
+      "request_sha256": "0965c41caff571f2970a7c93ffac8f6e23fdc25bdc9249c2a9c811d1b37364cf",
+      "seed": 42,
+      "temperature": 0
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V4-LAST-S011.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "83aa940806b8ad5ad9dc4298f79dfbfefacc02ec71cffc702a806f7fa1d641de",
+      "seed": 11,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V4-LAST-S037.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "f82eef193e80465c2a8b4a0f67fcde164eb53f4ac38474d03cb5dc8e7fb3d8aa",
+      "seed": 37,
+      "temperature": 0.3
+    },
+    {
+      "condition": "C1-V4-LAST",
+      "num_ctx": 4096,
+      "path": "formal/variable/C1-V4-LAST-S071.json",
+      "phase": "formal",
+      "profile": "variable",
+      "repetition": null,
+      "request_sha256": "d1c3376d31451cbfe96ef87deb2e293404160e528dee3b4fb7e8a28dfabc44c7",
+      "seed": 71,
+      "temperature": 0.3
+    }
+  ],
+  "variable_seeds": [
+    11,
+    37,
+    71
+  ]
+}
