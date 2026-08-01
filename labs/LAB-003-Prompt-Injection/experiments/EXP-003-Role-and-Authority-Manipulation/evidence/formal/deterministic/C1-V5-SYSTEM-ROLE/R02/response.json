@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-08-01T15:57:40.488704871Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 2,
+  "eval_duration": 137953000,
+  "load_duration": 207049978,
+  "message": {
+    "content": "SAFE",
+    "role": "assistant"
+  },
+  "model": "llama3:latest",
+  "prompt_eval_count": 60,
+  "prompt_eval_duration": 138125000,
+  "total_duration": 484741600
+}
