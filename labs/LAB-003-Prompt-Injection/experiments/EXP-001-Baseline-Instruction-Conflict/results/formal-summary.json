@@ -1,7 +1,7 @@
 {
   "experiment_id": "EXP-001",
   "phase": "formal",
-  "generated_at": "2026-08-01T11:33:49+01:00",
+  "generated_at": "2026-08-01T11:39:05+01:00",
   "protocol_commit": "2431dd3957ce58695abf394326b48c055ab71f94",
   "execution_commit": "840326cc691fd67cbbc77a53630907fb2bf49317",
   "evidence_commit": "e5a2d89ce1a86b6e6673a78ef6bdffe01fcf9a56",

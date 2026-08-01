@@ -75,7 +75,7 @@ Null hypothesis:
 Initial status:
 
 ```text
-Draft
+Formal evaluation complete — Supported
 ```
 
 Primary measurement:
@@ -106,7 +106,7 @@ Null hypothesis:
 Initial status:
 
 ```text
-Draft
+Formal evaluation complete — Supported
 ```
 
 Importance:
@@ -134,7 +134,7 @@ Null hypothesis:
 Initial status:
 
 ```text
-Draft
+Formal evaluation complete — Supported under tested conditions
 ```
 
 The experiment distinguishes:
@@ -164,7 +164,7 @@ Null hypothesis:
 Initial status:
 
 ```text
-Draft
+Formal evaluation complete — Supported for EXP-001
 ```
 
 ---
@@ -184,7 +184,7 @@ Hypothesis:
 Initial status:
 
 ```text
-Pre-registered methodological expectation
+Formal evaluation complete — Supported as methodological boundary
 ```
 
 This hypothesis prevents exaggerated interpretation of the result.

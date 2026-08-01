@@ -379,6 +379,7 @@ def write_csv(
         writer = csv.DictWriter(
             handle,
             fieldnames=fields,
+            lineterminator="\n",
         )
 
         writer.writeheader()
