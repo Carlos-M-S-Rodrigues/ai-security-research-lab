@@ -1,0 +1,161 @@
+{
+  "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+  "analysis_type": "Derived cross-experiment comparison",
+  "combined": {
+    "attack_runs": 194,
+    "successful_attacks": 90,
+    "weighted_observed_attack_success_rate": 0.4639175257731959
+  },
+  "experiment_count": 7,
+  "experiment_id": "EXP-008",
+  "experiments": [
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 10,
+      "attack_success_rate": 1.0,
+      "category": "Direct instruction conflict",
+      "completion_commit": "eec054a7bd1a2313c4911c42534c10507ae7ac4b",
+      "completion_tag": "lab-003-exp-001-complete",
+      "experiment_id": "EXP-001",
+      "metrics_file_verified": false,
+      "source_file": "experiments/EXP-001-Baseline-Instruction-Conflict/results/metrics.json",
+      "source_file_sha256": "83ebabb0c969fdc477603a72acb6fdec0bc9d9cb9cfe1fcd9a0cd22ba7fc42aa",
+      "successful_attacks": 10,
+      "title": "Baseline Instruction Conflict"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 40,
+      "attack_success_rate": 0.8,
+      "category": "Direct override formulation",
+      "completion_commit": "570c0fca5f0b4ed7e01ce19a22a00871fa7dc6dd",
+      "completion_tag": "lab-003-exp-002-complete",
+      "experiment_id": "EXP-002",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-002-Direct-Instruction-Override/results/metrics.json",
+      "source_file_sha256": "418bbb0cfd3cc0b9ff070a2b25d13796010206f407b0ff74f04a006a5dea0ae3",
+      "successful_attacks": 32,
+      "title": "Direct Instruction Override"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 30,
+      "attack_success_rate": 0.2,
+      "category": "Authority claims",
+      "completion_commit": "b6e64d9eb0f577ad77d37375251d7f4adadac6d6",
+      "completion_tag": "lab-003-exp-003-complete",
+      "experiment_id": "EXP-003",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-003-Role-and-Authority-Manipulation/results/metrics.json",
+      "source_file_sha256": "59990c221f8565919dbd940bea18adadb74ee8eb633c2e3fecd4943cdda936a3",
+      "successful_attacks": 6,
+      "title": "Role and Authority Manipulation"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 30,
+      "attack_success_rate": 0.03333333333333333,
+      "category": "Delimiter representation",
+      "completion_commit": "031bdec3e0c9fb5e703c8a45c7f55e27e1c19afd",
+      "completion_tag": "lab-003-exp-004-complete",
+      "experiment_id": "EXP-004",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-004-Delimiter-and-Payload-Placement/results/metrics.json",
+      "source_file_sha256": "d52d7589303112b5330e5ce34023b44042a7a9d2f420f26e65061018cbbf89b4",
+      "successful_attacks": 1,
+      "title": "Delimiter and Payload Placement"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 24,
+      "attack_success_rate": 0.75,
+      "category": "Context and position",
+      "completion_commit": "0aa7ffcad6d34a5771ca5cda22c38c9578723169",
+      "completion_tag": "lab-003-exp-005-complete",
+      "experiment_id": "EXP-005",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-005-Context-and-Position-Effects/results/metrics.json",
+      "source_file_sha256": "9647fc1237fe5e16887e86f251c82197af832a5fddf5e8ce49b923b39647f1f3",
+      "successful_attacks": 18,
+      "title": "Context and Position Effects"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 30,
+      "attack_success_rate": 0.5666666666666667,
+      "category": "Indirect injection",
+      "completion_commit": "f5bb729c844572507823f18d0dd9fcdd81220cd1",
+      "completion_tag": "lab-003-exp-006-complete",
+      "experiment_id": "EXP-006",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-006-Indirect-Prompt-Injection/results/metrics.json",
+      "source_file_sha256": "47fe0e96e7e7dcf8311d115fe4b4f54be7bb4afe8937389fa6eec72732335f5c",
+      "successful_attacks": 17,
+      "title": "Indirect Prompt Injection"
+    },
+    {
+      "analysis_base_commit": "2a726d851a4f496f1648b035cd6178c66ba41763",
+      "attack_runs": 30,
+      "attack_success_rate": 0.2,
+      "category": "Prompt-level mitigation",
+      "completion_commit": "f40dbbc29666983ac9ad4fbbf1350f884ebec5e5",
+      "completion_tag": "lab-003-exp-007-complete",
+      "experiment_id": "EXP-007",
+      "metrics_file_verified": true,
+      "source_file": "experiments/EXP-007-Prompt-Level-Mitigations/results/metrics.json",
+      "source_file_sha256": "daecfe6274f3ae747e35b9fbec907c22e7f96905325d4ec0c7ed51734e5468ca",
+      "successful_attacks": 6,
+      "title": "Prompt-Level Mitigations"
+    }
+  ],
+  "indirect_to_mitigation_comparison": {
+    "causal_claim": false,
+    "mitigation_experiment": "EXP-007",
+    "mitigation_rate": 0.2,
+    "observed_percentage_point_difference": 0.36666666666666664,
+    "observed_relative_reduction": 0.6470588235294117,
+    "unmitigated_experiment": "EXP-006",
+    "unmitigated_rate": 0.5666666666666667
+  },
+  "methodological_boundary": "The combined rate is a descriptive cross-experiment aggregate. The experiments used different prompts, conditions and attack representations, so the value is not a universal Prompt Injection probability.",
+  "new_model_executions": 0,
+  "ranking": [
+    {
+      "attack_success_rate": 1.0,
+      "experiment_id": "EXP-001",
+      "rank": 1
+    },
+    {
+      "attack_success_rate": 0.8,
+      "experiment_id": "EXP-002",
+      "rank": 2
+    },
+    {
+      "attack_success_rate": 0.75,
+      "experiment_id": "EXP-005",
+      "rank": 3
+    },
+    {
+      "attack_success_rate": 0.5666666666666667,
+      "experiment_id": "EXP-006",
+      "rank": 4
+    },
+    {
+      "attack_success_rate": 0.2,
+      "experiment_id": "EXP-003",
+      "rank": 5
+    },
+    {
+      "attack_success_rate": 0.2,
+      "experiment_id": "EXP-007",
+      "rank": 6
+    },
+    {
+      "attack_success_rate": 0.03333333333333333,
+      "experiment_id": "EXP-004",
+      "rank": 7
+    }
+  ],
+  "status": "Completed",
+  "title": "Comparative Evaluation"
+}
