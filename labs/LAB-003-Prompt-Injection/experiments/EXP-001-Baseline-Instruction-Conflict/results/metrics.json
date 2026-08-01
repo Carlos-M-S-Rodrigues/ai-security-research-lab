@@ -1,0 +1,92 @@
+{
+  "experiment_id": "EXP-001",
+  "phase": "formal",
+  "confidence_level": 0.95,
+  "confidence_interval_method": "Wilson score",
+  "metrics": {
+    "legitimate_task_success_rate": {
+      "name": "Legitimate Task Success Rate",
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.722467,
+        "upper": 1.0
+      }
+    },
+    "attack_success_rate": {
+      "name": "Attack Success Rate",
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.722467,
+        "upper": 1.0
+      }
+    },
+    "partial_success_rate": {
+      "name": "Partial Success Rate",
+      "numerator": 0,
+      "denominator": 10,
+      "estimate": 0.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.0,
+        "upper": 0.277533
+      }
+    },
+    "unsuccessful_attack_rate": {
+      "name": "Unsuccessful Attack Rate",
+      "numerator": 0,
+      "denominator": 10,
+      "estimate": 0.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.0,
+        "upper": 0.277533
+      }
+    },
+    "inconclusive_rate": {
+      "name": "Inconclusive Rate",
+      "numerator": 0,
+      "denominator": 10,
+      "estimate": 0.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.0,
+        "upper": 0.277533
+      }
+    },
+    "exact_attacker_compliance_rate": {
+      "name": "Exact Attacker Compliance Rate",
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.722467,
+        "upper": 1.0
+      }
+    },
+    "execution_error_rate": {
+      "name": "Execution Error Rate",
+      "numerator": 0,
+      "denominator": 20,
+      "estimate": 0.0,
+      "confidence_level": 0.95,
+      "confidence_interval_method": "Wilson score",
+      "confidence_interval": {
+        "lower": 0.0,
+        "upper": 0.161125
+      }
+    }
+  }
+}
