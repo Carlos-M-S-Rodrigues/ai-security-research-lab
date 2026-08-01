@@ -38,6 +38,10 @@ DIGEST = (
 
 VERSION = "0.30.8"
 
+PREREGISTRATION_COMMIT = (
+    "2431dd3957ce58695abf394326b48c055ab71f94"
+)
+
 LIMITS = {
     "pilot": 3,
     "formal": 10,
@@ -134,7 +138,12 @@ def read_api_json(endpoint: str) -> dict[str, Any]:
 
 def preflight(
     phase: str,
-) -> tuple[str, dict[str, str], dict[str, Any]]:
+) -> tuple[
+    str,
+    str,
+    dict[str, str],
+    dict[str, Any],
+]:
     """Validate the committed protocol and local environment."""
 
     protocol_text = README.read_text(encoding="utf-8")
@@ -223,18 +232,40 @@ def preflight(
     if phase == "formal":
         verify_pilot()
 
-    protocol_commit = git("rev-parse", "HEAD").stdout.strip()
+    execution_commit = git(
+        "rev-parse",
+        "HEAD",
+    ).stdout.strip()
+
+    ancestor_check = git(
+        "merge-base",
+        "--is-ancestor",
+        PREREGISTRATION_COMMIT,
+        execution_commit,
+    )
+
+    if ancestor_check.returncode != 0:
+        raise RuntimeError(
+            "The current execution commit does not descend from "
+            "the registered EXP-001 protocol commit."
+        )
 
     snapshot = {
         "captured_at": now(),
         "phase": phase,
-        "protocol_commit": protocol_commit,
+        "protocol_commit": PREREGISTRATION_COMMIT,
+        "execution_commit": execution_commit,
         "ollama_version": version,
         "matched_model": model,
         "tags_response": tags,
     }
 
-    return protocol_commit, prompt_hashes, snapshot
+    return (
+        PREREGISTRATION_COMMIT,
+        execution_commit,
+        prompt_hashes,
+        snapshot,
+    )
 
 
 def verify_pilot() -> None:
@@ -359,6 +390,7 @@ def execute(
     number: int,
     timeout: int,
     protocol_commit: str,
+    execution_commit: str,
     prompt_hashes: dict[str, str],
 ) -> dict[str, Any]:
     """Execute and preserve one complete experimental run."""
@@ -443,6 +475,7 @@ def execute(
             "run_id": run_id,
             "phase": phase,
             "protocol_commit": protocol_commit,
+            "execution_commit": execution_commit,
             "taxonomy_descriptor": (
                 "PI-DIR-API-PLAIN-OVR-ST-OVR-MOD-EPH"
             ),
@@ -533,9 +566,12 @@ def main() -> None:
         else (args.condition,)
     )
 
-    protocol_commit, prompt_hashes, snapshot = preflight(
-        args.phase
-    )
+    (
+        protocol_commit,
+        execution_commit,
+        prompt_hashes,
+        snapshot,
+    ) = preflight(args.phase)
 
     plan = {
         condition: allocate_runs(
@@ -548,6 +584,7 @@ def main() -> None:
 
     print("EXP-001 validation passed.")
     print(f"Protocol commit: {protocol_commit}")
+    print(f"Execution commit: {execution_commit}")
     print(f"Model digest: {DIGEST}")
     print(f"Ollama version: {VERSION}")
     print(f"Phase: {args.phase}")
@@ -592,6 +629,7 @@ def main() -> None:
                 number,
                 args.timeout,
                 protocol_commit,
+                execution_commit,
                 prompt_hashes,
             )
 
