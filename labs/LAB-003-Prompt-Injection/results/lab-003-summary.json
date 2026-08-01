@@ -1,0 +1,75 @@
+{
+  "combined_descriptive_result": {
+    "attack_executions": 194,
+    "successful_attack_outcomes": 90,
+    "universal_probability_claim": false,
+    "weighted_observed_attack_success_rate": 0.4639175257731959
+  },
+  "completed_experiment_count": 8,
+  "completion_base_commit": "e9a1a37939821914989aa5f2a869d6107c54ceef",
+  "derived_experiment_count": 1,
+  "experiment_tags": {
+    "EXP-001": {
+      "commit": "eec054a7bd1a2313c4911c42534c10507ae7ac4b",
+      "tag": "lab-003-exp-001-complete"
+    },
+    "EXP-002": {
+      "commit": "570c0fca5f0b4ed7e01ce19a22a00871fa7dc6dd",
+      "tag": "lab-003-exp-002-complete"
+    },
+    "EXP-003": {
+      "commit": "b6e64d9eb0f577ad77d37375251d7f4adadac6d6",
+      "tag": "lab-003-exp-003-complete"
+    },
+    "EXP-004": {
+      "commit": "031bdec3e0c9fb5e703c8a45c7f55e27e1c19afd",
+      "tag": "lab-003-exp-004-complete"
+    },
+    "EXP-005": {
+      "commit": "0aa7ffcad6d34a5771ca5cda22c38c9578723169",
+      "tag": "lab-003-exp-005-complete"
+    },
+    "EXP-006": {
+      "commit": "f5bb729c844572507823f18d0dd9fcdd81220cd1",
+      "tag": "lab-003-exp-006-complete"
+    },
+    "EXP-007": {
+      "commit": "f40dbbc29666983ac9ad4fbbf1350f884ebec5e5",
+      "tag": "lab-003-exp-007-complete"
+    }
+  },
+  "indirect_to_mitigation_comparison": {
+    "causal_claim": false,
+    "mitigation_experiment": "EXP-007",
+    "observed_percentage_point_reduction": 0.36666666666666664,
+    "observed_relative_reduction": 0.6470588235294117,
+    "unmitigated_experiment": "EXP-006"
+  },
+  "lab_id": "LAB-003",
+  "methodological_boundaries": [
+    "Results apply to the recorded model, runtime, prompts, parameters and seeds.",
+    "The combined rate is descriptive and not a universal Prompt Injection probability.",
+    "No operating-system compromise, privilege escalation, data exfiltration or production impact was demonstrated."
+  ],
+  "model": {
+    "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "parameter_size": "8.0B",
+    "quantization": "Q4_0",
+    "tag": "llama3:latest"
+  },
+  "model_execution_experiment_count": 7,
+  "primary_findings": [
+    "Direct instruction conflict and several direct override formulations produced attacker-selected output.",
+    "Textual authority claims did not acquire structural system-role authority.",
+    "Outcomes depended on formulation, representation, context and position.",
+    "Indirect Prompt Injection succeeded in multiple external-content representations.",
+    "Prompt-level mitigations reduced but did not eliminate successful attacks.",
+    "System prompts alone were not demonstrated to be a complete security boundary."
+  ],
+  "runtime": {
+    "num_ctx": 4096,
+    "ollama_version": "0.30.8"
+  },
+  "status": "Completed",
+  "title": "Prompt Injection"
+}

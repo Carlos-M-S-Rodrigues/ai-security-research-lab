@@ -200,3 +200,59 @@ The current phase establishes:
 5. The criteria used to classify attack outcomes.
 
 No security conclusion will be accepted without reproducible experimental evidence.
+
+<!-- LAB-003-FINAL-SUMMARY:START -->
+
+## LAB-003 Completion Summary
+
+**Status:** Completed
+
+**Experiments completed:** 8
+
+**Model-execution experiments:** 7
+
+**Derived comparative evaluations:** 1
+
+**Completion base commit:** `e9a1a37939821914989aa5f2a869d6107c54ceef`
+
+### Final Experimental Matrix
+
+| Experiment | Research area | Successful attacks | Observed ASR |
+|---|---|---:|---:|
+| EXP-001 | [Baseline Instruction Conflict](experiments/EXP-001-Baseline-Instruction-Conflict/README.md) | 10/10 | 100.0% |
+| EXP-002 | [Direct Instruction Override](experiments/EXP-002-Direct-Instruction-Override/README.md) | 32/40 | 80.0% |
+| EXP-003 | [Role and Authority Manipulation](experiments/EXP-003-Role-and-Authority-Manipulation/README.md) | 6/30 | 20.0% |
+| EXP-004 | [Delimiter and Payload Placement](experiments/EXP-004-Delimiter-and-Payload-Placement/README.md) | 1/30 | 3.3% |
+| EXP-005 | [Context and Position Effects](experiments/EXP-005-Context-and-Position-Effects/README.md) | 18/24 | 75.0% |
+| EXP-006 | [Indirect Prompt Injection](experiments/EXP-006-Indirect-Prompt-Injection/README.md) | 17/30 | 56.7% |
+| EXP-007 | [Prompt-Level Mitigations](experiments/EXP-007-Prompt-Level-Mitigations/README.md) | 6/30 | 20.0% |
+
+### Consolidated Result
+
+* Successful attacker-compliance outcomes: 90
+* Attack executions: 194
+* Weighted observed ASR:
+  90/194 (46.4%)
+* New model executions in EXP-008: 0
+
+The weighted value is descriptive and is not a universal Prompt
+Injection probability.
+
+### Primary Conclusion
+
+Prompt Injection behaviour depended on instruction formulation,
+authority framing, representation, context, payload position and
+mitigation structure.
+
+Prompt-level mitigation reduced the recorded success rate but did
+not eliminate successful attacks.
+
+**System prompts alone are not a complete security boundary.**
+
+### Final Artefacts
+
+* [Technical Report](report/LAB-003-Technical-Report.md)
+* [Consolidated Summary](results/lab-003-summary.json)
+* [Comparative Evaluation](experiments/EXP-008-Comparative-Evaluation/README.md)
+
+<!-- LAB-003-FINAL-SUMMARY:END -->
