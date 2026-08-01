@@ -1,0 +1,117 @@
+{
+  "capture_type": "pre-execution environment",
+  "captured_at_utc": "2026-08-01T14:53:11.976336+00:00",
+  "continuity_checks": {
+    "expected_model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "expected_model_tag": "llama3:latest",
+    "expected_ollama_version": "0.30.8",
+    "model_digest_match": true,
+    "ollama_version_match": true
+  },
+  "experiment_id": "EXP-002",
+  "model": {
+    "capabilities": [
+      "completion"
+    ],
+    "details": {
+      "context_length": 8192,
+      "embedding_length": 4096,
+      "families": [
+        "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "",
+      "quantization_level": "Q4_0"
+    },
+    "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "model_info": {
+      "general.architecture": "llama",
+      "general.file_type": 2,
+      "general.parameter_count": 8030261248,
+      "general.quantization_version": 2,
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 8192,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": null,
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": null,
+      "tokenizer.ggml.tokens": null
+    },
+    "modelfile_artifact": {
+      "path": "evidence/model-modelfile.txt",
+      "sha256": "7d28ba8e17cacff994d4983cbb9fb623bd306aa3feaca7722f7d54f842870d5a",
+      "size_bytes": 13034
+    },
+    "modified_at": "2026-06-13T11:36:01.055829145+01:00",
+    "parameters_artifact": {
+      "path": "evidence/model-parameters.txt",
+      "sha256": "fac7cd16b61ea8babcb896b5242b18c40a24a5d1e1bb878ff2ca2affdc91ab1a",
+      "size_bytes": 182
+    },
+    "requested_tag": "llama3:latest",
+    "resolved_model": "llama3:latest",
+    "resolved_name": "llama3:latest",
+    "size_bytes": 4661224676,
+    "template_artifact": {
+      "path": "evidence/model-template.txt",
+      "sha256": "0046e5dbf81708eb3ce503202ec3e18ffe8bcbb4750c4a154c8dd7bb8438db22",
+      "size_bytes": 255
+    }
+  },
+  "ollama": {
+    "api_base": "http://127.0.0.1:11434",
+    "api_version": "0.30.8",
+    "cli_version": {
+      "available": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "ollama version is 0.30.8"
+    }
+  },
+  "system": {
+    "display_hardware": {
+      "available": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "00:00.0 Host bridge [0600]: Intel Corporation 8th/9th Gen Core 8-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S] [8086:3e30] (rev 0d)\n00:01.0 PCI bridge [0604]: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16) [8086:1901] (rev 0d)\n00:14.0 USB controller [0c03]: Intel Corporation 200 Series/Z370 Chipset Family USB 3.0 xHCI Controller [8086:a2af]\n00:16.0 Communication controller [0780]: Intel Corporation 200 Series PCH CSME HECI #1 [8086:a2ba]\n00:17.0 SATA controller [0106]: Intel Corporation 200 Series PCH SATA controller [AHCI mode] [8086:a282]\n00:1b.0 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #17 [8086:a2e7] (rev f0)\n00:1b.4 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #21 [8086:a2eb] (rev f0)\n00:1c.0 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #1 [8086:a290] (rev f0)\n00:1c.4 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #5 [8086:a294] (rev f0)\n00:1c.6 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #7 [8086:a296] (rev f0)\n00:1d.0 PCI bridge [0604]: Intel Corporation 200 Series PCH PCI Express Root Port #9 [8086:a298] (rev f0)\n00:1f.0 ISA bridge [0601]: Intel Corporation Z370 Chipset LPC/eSPI Controller [8086:a2c9]\n00:1f.2 Memory controller [0580]: Intel Corporation 200 Series/Z370 Chipset Family Power Management Controller [8086:a2a1]\n00:1f.3 Audio device [0403]: Intel Corporation 200 Series PCH HD Audio [8086:a2f0]\n00:1f.4 SMBus [0c05]: Intel Corporation 200 Series/Z370 Chipset Family SMBus Controller [8086:a2a3]\n00:1f.6 Ethernet controller [0200]: Intel Corporation Ethernet Connection (2) I219-V [8086:15b8]\n01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP107 [GeForce GTX 1050 Ti] [10de:1c82] (rev a1)\n01:00.1 Audio device [0403]: NVIDIA Corporation GP107GL High Definition Audio Controller [10de:0fb9] (rev a1)\n03:00.0 Ethernet controller [0200]: Intel Corporation 82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105e] (rev 06)\n03:00.1 Ethernet controller [0200]: Intel Corporation 82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105e] (rev 06)\n04:00.0 Network controller [0280]: Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)\n05:00.0 USB controller [0c03]: ASMedia Technology Inc. ASM2142/ASM3142 USB 3.1 Host Controller [1b21:2142]\n06:00.0 USB controller [0c03]: ASMedia Technology Inc. ASM2142/ASM3142 USB 3.1 Host Controller [1b21:2142]"
+    },
+    "kernel_release": "6.8.0-136-generic",
+    "kernel_version": "#136-Ubuntu SMP PREEMPT_DYNAMIC Wed Jul  1 21:53:05 UTC 2026",
+    "machine": "x86_64",
+    "nvidia_smi": {
+      "available": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "NVIDIA GeForce GTX 1050 Ti, 535.309.01, 4096 MiB"
+    },
+    "os_release": {
+      "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+      "HOME_URL": "https://www.ubuntu.com/",
+      "ID": "ubuntu",
+      "ID_LIKE": "debian",
+      "LOGO": "ubuntu-logo",
+      "NAME": "Ubuntu",
+      "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
+      "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+      "SUPPORT_URL": "https://help.ubuntu.com/",
+      "UBUNTU_CODENAME": "noble",
+      "VERSION": "24.04.4 LTS (Noble Numbat)",
+      "VERSION_CODENAME": "noble",
+      "VERSION_ID": "24.04"
+    },
+    "processor": "x86_64",
+    "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]"
+  }
+}
