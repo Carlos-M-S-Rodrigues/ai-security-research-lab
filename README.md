@@ -98,8 +98,8 @@ Each laboratory introduces new concepts, validates them through practical experi
 
 | Status | Laboratory | Description |
 |:------:|------------|-------------|
-| ✅ | **LAB-001** | AI Security Research Platform |
-| ✅ | **LAB-002** | LLM Fundamentals and Architecture |
+| ✅ | **[LAB-001](labs/LAB-001-AI-Security-Research-Platform/README.md)** | AI Security Research Platform |
+| ✅ | **[LAB-002](labs/LAB-002-LLM-Fundamentals-and-Architecture/README.md)** | LLM Fundamentals and Architecture |
 | ✅ | **[LAB-003](labs/LAB-003-Prompt-Injection/README.md)** | Prompt Injection |
 | 🔜 | **LAB-004** | System Prompts |
 | 🔜 | **LAB-005** | Jailbreak Techniques |
@@ -111,12 +111,12 @@ Each laboratory introduces new concepts, validates them through practical experi
 | 🔜 | **LAB-011** | AI Agents Security |
 | 🔜 | **LAB-012** | AI Security Capstone |
 
-Every laboratory includes:
+Completed laboratories are documented with a combination of:
 
 - Objectives
-- Technical report
+- Technical documentation
 - Practical experiments
-- Screenshots
+- Screenshots and raw evidence
 - Lessons learned
 - References
 - LinkedIn publication
@@ -154,6 +154,10 @@ The primary engineering conclusion was:
 [Open LAB-003 — Prompt Injection](labs/LAB-003-Prompt-Injection/README.md)
 
 [Read the Technical Report](labs/LAB-003-Prompt-Injection/report/LAB-003-Technical-Report.md)
+
+[Read the Technical Article](labs/LAB-003-Prompt-Injection/article/linkedin-post.md)
+
+[Read the Published LinkedIn Article](https://www.linkedin.com/pulse/system-prompts-security-boundary-carlos-m-s-rodrigues-myk7e/)
 
 ---
 
@@ -273,8 +277,6 @@ ai-security-research-lab
 │
 ├── platform/
 │
-├── reports/
-│
 └── README.md
 ```
 
@@ -284,14 +286,17 @@ This structure allows every laboratory to remain self-contained while sharing co
 
 # Latest Publications
 
-Every completed laboratory is accompanied by a technical article summarising the research and the practical experiments.
+Every completed laboratory is accompanied by a technical publication
+connecting the GitHub evidence with a broader engineering discussion.
 
-| Laboratory | Publication |
-|------------|-------------|
-| LAB-001 | Building an AI Security Research Platform |
-| LAB-002 | Understanding LLM Fundamentals and Architecture |
+| Laboratory | LinkedIn publication | GitHub material |
+|---|---|---|
+| [LAB-001](labs/LAB-001-AI-Security-Research-Platform/README.md) | [AI Security Research Lab 1](https://www.linkedin.com/pulse/ai-security-research-lab-1-carlos-m-s-rodrigues-ee81e/) | [Publication reference](labs/LAB-001-AI-Security-Research-Platform/article/README.md) |
+| [LAB-002](labs/LAB-002-LLM-Fundamentals-and-Architecture/README.md) | [Understanding How Large Language Models Really Work](https://www.linkedin.com/pulse/understanding-how-large-language-models-really-work-lab-s-rodrigues-xgy3e/) | [Publication reference](labs/LAB-002-LLM-Fundamentals-and-Architecture/article/README.md) |
+| [LAB-003](labs/LAB-003-Prompt-Injection/README.md) | [System Prompts Are Not a Security Boundary](https://www.linkedin.com/pulse/system-prompts-security-boundary-carlos-m-s-rodrigues-myk7e/) | [Technical article](labs/LAB-003-Prompt-Injection/article/linkedin-post.md) |
 
-Future articles will continue to document the evolution of the laboratory as new AI Security topics are explored.
+Future publications will continue documenting the evolution of the
+research laboratory.
 
 ---
 
@@ -379,7 +384,7 @@ If you find this repository useful, consider:
 
 ⭐ Starring the repository
 
-🍴 Following the project
+🍴 Forking the repository
 
 💬 Sharing feedback
 

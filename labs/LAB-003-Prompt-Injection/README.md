@@ -6,7 +6,17 @@
 
 ## Status
 
-✅ Completed — eight experiments, formal evidence, comparative analysis and technical report published.
+✅ Completed — eight experiments, formal evidence, comparative
+analysis and technical report published.
+
+## Publication
+
+- [Read the LinkedIn article](https://www.linkedin.com/pulse/system-prompts-security-boundary-carlos-m-s-rodrigues-myk7e/)
+- [Read the GitHub technical article](article/linkedin-post.md)
+- [Read the technical report](report/LAB-003-Technical-Report.md)
+
+---
+
 
 ## Objective
 
@@ -121,22 +131,22 @@ Experiments will initially use four result classes:
 
 These classifications may later be expanded into quantitative metrics.
 
-## Planned Experiments
 
-| Experiment | Description                   | Status  |
-| ---------- | ----------------------------- | ------- |
-| EXP-001    | Baseline Instruction Conflict | Planned |
-| EXP-002    | Direct Instruction Override   | Planned |
-| EXP-003    | Role Manipulation             | Planned |
-| EXP-004    | Prompt Leakage                | Planned |
-| EXP-005    | Delimiter Attack              | Planned |
-| EXP-006    | Context Injection             | Planned |
-| EXP-007    | Multi-turn Prompt Injection   | Planned |
-| EXP-008    | Recursive Prompt Injection    | Planned |
-| EXP-009    | Indirect Prompt Injection     | Planned |
-| EXP-010    | Mitigation Comparison         | Planned |
+## Completed Experiments
 
-Additional experiments may be introduced when observations justify new research questions.
+| Experiment | Research area | Status |
+|---|---|:---:|
+| EXP-001 | [Baseline Instruction Conflict](experiments/EXP-001-Baseline-Instruction-Conflict/README.md) | ✅ |
+| EXP-002 | [Direct Instruction Override](experiments/EXP-002-Direct-Instruction-Override/README.md) | ✅ |
+| EXP-003 | [Role and Authority Manipulation](experiments/EXP-003-Role-and-Authority-Manipulation/README.md) | ✅ |
+| EXP-004 | [Delimiter and Payload Placement](experiments/EXP-004-Delimiter-and-Payload-Placement/README.md) | ✅ |
+| EXP-005 | [Context and Position Effects](experiments/EXP-005-Context-and-Position-Effects/README.md) | ✅ |
+| EXP-006 | [Indirect Prompt Injection](experiments/EXP-006-Indirect-Prompt-Injection/README.md) | ✅ |
+| EXP-007 | [Prompt-Level Mitigations](experiments/EXP-007-Prompt-Level-Mitigations/README.md) | ✅ |
+| EXP-008 | [Comparative Evaluation](experiments/EXP-008-Comparative-Evaluation/README.md) | ✅ |
+
+Additional experiments may be introduced in future laboratories when
+new research questions justify them.
 
 ## Repository Structure
 
@@ -171,39 +181,38 @@ The laboratory maintains separate documents for:
 
 Potentially original observations must first be recorded as candidate findings. They must not be presented as novel techniques until they have been reproduced and compared with existing literature.
 
-## Expected Deliverables
 
-LAB-003 will produce:
+## Delivered Artefacts
 
-* Laboratory README
-* Technical report
-* Theoretical foundation
-* Threat model
-* Prompt Injection taxonomy
-* Experimental methodology
-* Prompt collection
-* Attack catalogue
-* Mitigation catalogue
-* Promptfoo evaluation configurations
-* Reproducible results
-* Screenshots and raw evidence
-* OWASP mapping
-* MITRE ATLAS mapping
-* Knowledge Base updates
-* LinkedIn technical article
-* GitHub publication
+LAB-003 produced:
 
-## Current Phase
+- Laboratory README
+- Technical report
+- Theoretical foundation
+- Threat model
+- Prompt Injection taxonomy
+- Experimental methodology
+- Prompt collection
+- Mitigation catalogue
+- Reproducible execution evidence
+- Request and response hashes
+- Comparative evaluation
+- OWASP mapping
+- MITRE ATLAS mapping
+- LinkedIn technical article
+- GitHub publication
 
-The current phase establishes:
 
-1. The theoretical foundation.
-2. The threat model.
-3. The experimental methodology.
-4. The baseline model configuration.
-5. The criteria used to classify attack outcomes.
+## Completion State
 
-No security conclusion will be accepted without reproducible experimental evidence.
+The research phase is complete.
+
+All formal model executions, classifications, comparative results,
+technical documentation and publication materials have been preserved
+in the repository.
+
+No final security conclusion was accepted without reproducible
+experimental evidence.
 
 <!-- LAB-003-FINAL-SUMMARY:START -->
 

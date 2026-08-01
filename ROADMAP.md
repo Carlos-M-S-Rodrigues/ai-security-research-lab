@@ -2,45 +2,47 @@
 
 This roadmap defines the planned progression of the project.
 
-Each laboratory builds upon the previous one, moving from AI fundamentals towards advanced AI Security research.
+Each laboratory builds upon the previous one, moving from AI
+fundamentals towards advanced AI Security research.
 
 ---
 
-## Phase 1 — Platform
+## Phase 1 — Platform and Foundations
 
-- ✅ LAB-001 — AI Security Research Platform
-- ✅ LAB-002 — Understanding LLM Fundamentals
+- ✅ [LAB-001 — AI Security Research Platform](labs/LAB-001-AI-Security-Research-Platform/README.md)
+- ✅ [LAB-002 — LLM Fundamentals and Architecture](labs/LAB-002-LLM-Fundamentals-and-Architecture/README.md)
 
 ---
 
 ## Phase 2 — Prompt Security
 
-- 🔜 LAB-003 — Prompt Injection
-- 🔜 LAB-004 — System Prompt Leakage
+- ✅ [LAB-003 — Prompt Injection](labs/LAB-003-Prompt-Injection/README.md)
+- 🔜 LAB-004 — System Prompts
 - 🔜 LAB-005 — Jailbreak Techniques
 
 ---
 
 ## Phase 3 — Security Assessment
 
-- 🔜 LAB-006 — Promptfoo Evaluation
+- 🔜 LAB-006 — Promptfoo Security Evaluation
 - 🔜 LAB-007 — OWASP LLM Top 10
 - 🔜 LAB-008 — MITRE ATLAS
 
 ---
 
-## Phase 4 — Enterprise AI
+## Phase 4 — Enterprise AI Security
 
-- 🔜 LAB-009 — RAG Security
-- 🔜 LAB-010 — Guardrails
+- 🔜 LAB-009 — Retrieval-Augmented Generation Security
+- 🔜 LAB-010 — AI Guardrails
 - 🔜 LAB-011 — AI Agents Security
 
 ---
 
-## Phase 5 — Research
+## Phase 5 — Applied Research
 
-- 🔜 LAB-012 — AI Security Capstone Project
+- 🔜 LAB-012 — AI Security Capstone
 
 ---
 
-The roadmap will continue evolving as new research topics are incorporated into the laboratory.
+The roadmap will continue evolving as new research questions,
+technologies and attack surfaces are incorporated into the laboratory.
