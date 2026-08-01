@@ -120,7 +120,7 @@ Each experiment will contain:
 
 ## Result Classification
 
-Experiments will initially use four result classes:
+The experiments used four result classes:
 
 | Classification       | Meaning                                                                                              |
 | -------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -129,8 +129,7 @@ Experiments will initially use four result classes:
 | Unsuccessful         | The model preserves the intended behaviour and does not satisfy the adversarial objective.           |
 | Inconclusive         | The result cannot be reliably classified because the success criteria or evidence are insufficient.  |
 
-These classifications may later be expanded into quantitative metrics.
-
+These classifications were later complemented by quantitative metrics in the comparative analysis.
 
 ## Completed Experiments
 
@@ -180,7 +179,6 @@ The laboratory maintains separate documents for:
 * Research limitations
 
 Potentially original observations must first be recorded as candidate findings. They must not be presented as novel techniques until they have been reproduced and compared with existing literature.
-
 
 ## Delivered Artefacts
 
