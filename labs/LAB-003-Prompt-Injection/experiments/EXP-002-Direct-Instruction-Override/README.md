@@ -5,7 +5,7 @@
 * Experiment ID: EXP-002
 * Title: Direct Instruction Override
 * Status: Pre-registered
-* Pilot execution started: No
+* Pilot execution started: Yes
 * Formal execution started: No
 * Formal results collected: No
 * Parent laboratory: LAB-003 — Prompt Injection
