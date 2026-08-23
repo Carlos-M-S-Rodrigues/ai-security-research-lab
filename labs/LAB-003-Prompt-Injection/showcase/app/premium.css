@@ -1,0 +1,613 @@
+:root {
+    --lab-bg: #070b12;
+    --lab-surface: #0d1522;
+    --lab-surface-2: #101b2b;
+    --lab-line: #26354a;
+    --lab-line-soft: #1b2839;
+    --lab-text: #f4f7fb;
+    --lab-muted: #9eacc0;
+    --lab-muted-2: #74859c;
+
+    --lab-red: #dc515a;
+    --lab-red-hover: #e66068;
+    --lab-red-line: #713d45;
+    --lab-red-surface: #25171c;
+
+    --lab-green: #4bc486;
+    --lab-green-line: #32684f;
+    --lab-green-surface: #12231b;
+
+    --lab-blue: #69a7ff;
+    --lab-blue-line: #355372;
+    --lab-blue-surface: #101c2c;
+}
+
+
+/* ---------------------------------------------------------
+   GLOBAL
+   --------------------------------------------------------- */
+
+html,
+body,
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(
+            circle at 50% -20%,
+            rgba(44, 79, 124, 0.10),
+            transparent 34rem
+        ),
+        var(--lab-bg);
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+#MainMenu,
+footer {
+    visibility: hidden;
+}
+
+.block-container {
+    max-width: 1240px;
+    padding-top: 2.4rem;
+    padding-bottom: 5rem;
+}
+
+
+/* ---------------------------------------------------------
+   HERO
+   --------------------------------------------------------- */
+
+.hero {
+    position: relative;
+
+    padding: 2.15rem 2.35rem;
+
+    border:
+        1px solid
+        var(--lab-line);
+
+    border-radius: 18px;
+
+    background:
+        radial-gradient(
+            circle at 88% 0%,
+            rgba(89, 145, 222, 0.14),
+            transparent 32%
+        ),
+        linear-gradient(
+            135deg,
+            #0e1827 0%,
+            #112038 100%
+        );
+
+    box-shadow:
+        0 22px 65px
+        rgba(0, 0, 0, 0.28);
+
+    margin-bottom: 1.85rem;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    left: 2.35rem;
+    top: 0;
+
+    width: 72px;
+    height: 2px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--lab-blue),
+            transparent
+        );
+}
+
+.hero-kicker {
+    color: #8db8ef;
+
+    font-size: 0.72rem;
+
+    font-weight: 650;
+
+    letter-spacing: 0.17em;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0.7rem;
+}
+
+.hero-title {
+    color: var(--lab-text);
+
+    font-size: 2.15rem;
+
+    line-height: 1.18;
+
+    font-weight: 760;
+
+    letter-spacing: -0.025em;
+
+    margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+    max-width: 880px;
+
+    color: #c1cddd;
+
+    font-size: 0.97rem;
+
+    line-height: 1.7;
+}
+
+
+/* ---------------------------------------------------------
+   FORM LABELS
+   --------------------------------------------------------- */
+
+label,
+[data-testid="stWidgetLabel"] {
+    color: #d5deea !important;
+
+    font-size: 0.80rem !important;
+
+    font-weight: 590 !important;
+}
+
+
+/* ---------------------------------------------------------
+   SELECT
+   --------------------------------------------------------- */
+
+[data-baseweb="select"] > div {
+    min-height: 44px;
+
+    background: #111926 !important;
+
+    border-color:
+        var(--lab-line) !important;
+
+    border-radius: 9px !important;
+}
+
+[data-baseweb="select"] span {
+    color: #ecf2f8 !important;
+}
+
+
+/* ---------------------------------------------------------
+   RADIO
+   --------------------------------------------------------- */
+
+div[role="radiogroup"] {
+    gap: 0.7rem;
+}
+
+div[role="radiogroup"] label {
+    padding-right: 0.4rem;
+}
+
+
+/* ---------------------------------------------------------
+   INCIDENT REPORT
+   --------------------------------------------------------- */
+
+textarea:disabled {
+    opacity: 1 !important;
+
+    -webkit-text-fill-color:
+        #b8c4d3 !important;
+
+    color:
+        #b8c4d3 !important;
+
+    background:
+        #0b121d !important;
+
+    border:
+        1px solid
+        var(--lab-line) !important;
+
+    border-radius: 12px !important;
+
+    line-height: 1.65 !important;
+}
+
+textarea:disabled:hover {
+    border-color:
+        #354a65 !important;
+}
+
+
+/* ---------------------------------------------------------
+   SCENARIO / TRUST BOUNDARY
+   --------------------------------------------------------- */
+
+.boundary {
+    padding: 1.05rem 1.15rem !important;
+
+    border:
+        1px solid
+        #31506f !important;
+
+    border-radius: 12px !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            #0e1928,
+            #101c2c
+        ) !important;
+
+    box-shadow:
+        inset 0 1px
+        rgba(255, 255, 255, 0.02);
+
+    margin-top: 1rem !important;
+}
+
+.small-label {
+    color: #8cb5e9 !important;
+
+    font-size: 0.67rem !important;
+
+    font-weight: 650;
+
+    letter-spacing: 0.13em !important;
+
+    text-transform: uppercase;
+}
+
+
+/* ---------------------------------------------------------
+   PRIMARY ACTION
+   --------------------------------------------------------- */
+
+div.stButton > button {
+    min-height: 3.2rem;
+
+    border-radius: 10px;
+
+    border:
+        1px solid
+        #ee737b;
+
+    background:
+        linear-gradient(
+            180deg,
+            #e15860 0%,
+            #d94c55 100%
+        );
+
+    color: white;
+
+    font-weight: 710;
+
+    letter-spacing: 0.01em;
+
+    box-shadow:
+        0 10px 30px
+        rgba(217, 76, 85, 0.16);
+
+    transition:
+        transform 120ms ease,
+        background 120ms ease,
+        box-shadow 120ms ease;
+}
+
+div.stButton > button:hover {
+    border-color: #ff858c;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ea626a 0%,
+            #df535c 100%
+        );
+
+    color: white;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 12px 34px
+        rgba(217, 76, 85, 0.22);
+}
+
+div.stButton > button:active {
+    transform: translateY(0);
+}
+
+
+/* ---------------------------------------------------------
+   DIVIDERS
+   --------------------------------------------------------- */
+
+hr {
+    border-color:
+        var(--lab-line) !important;
+
+    opacity: 0.9;
+}
+
+
+/* ---------------------------------------------------------
+   HEADINGS
+   --------------------------------------------------------- */
+
+h2 {
+    color:
+        var(--lab-text) !important;
+
+    font-weight: 730 !important;
+
+    letter-spacing: -0.022em !important;
+
+    margin-top: 1.4rem !important;
+}
+
+h3 {
+    color:
+        var(--lab-text) !important;
+
+    font-weight: 690 !important;
+
+    letter-spacing: -0.015em !important;
+}
+
+
+/* ---------------------------------------------------------
+   SECURITY OUTCOME CARDS
+   --------------------------------------------------------- */
+
+.result-card {
+    position: relative;
+
+    min-height: 185px !important;
+
+    padding:
+        1.35rem
+        1.45rem !important;
+
+    border-radius:
+        15px !important;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 16px 40px
+        rgba(0, 0, 0, 0.16);
+}
+
+.result-card::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+
+    height: 2px;
+}
+
+.result-card.bad {
+    border-color:
+        var(--lab-red-line) !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            #25171c 0%,
+            #1d1519 100%
+        ) !important;
+}
+
+.result-card.bad::before {
+    background:
+        linear-gradient(
+            90deg,
+            var(--lab-red),
+            transparent
+        );
+}
+
+.result-card.good {
+    border-color:
+        var(--lab-green-line) !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            #12231b 0%,
+            #101c18 100%
+        ) !important;
+}
+
+.result-card.good::before {
+    background:
+        linear-gradient(
+            90deg,
+            var(--lab-green),
+            transparent
+        );
+}
+
+.result-card.neutral {
+    border-color:
+        var(--lab-blue-line) !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            #101c2c 0%,
+            #0e1724 100%
+        ) !important;
+}
+
+.result-card.neutral::before {
+    background:
+        linear-gradient(
+            90deg,
+            var(--lab-blue),
+            transparent
+        );
+}
+
+.result-title {
+    color:
+        var(--lab-muted-2) !important;
+
+    font-size:
+        0.67rem !important;
+
+    font-weight: 650;
+
+    text-transform: uppercase;
+
+    letter-spacing:
+        0.13em !important;
+
+    margin-bottom:
+        0.85rem !important;
+}
+
+.result-value {
+    color:
+        var(--lab-text) !important;
+
+    font-size:
+        1.30rem !important;
+
+    font-weight:
+        760 !important;
+
+    line-height:
+        1.38 !important;
+
+    letter-spacing:
+        -0.012em;
+
+    margin-bottom:
+        0.72rem !important;
+}
+
+.result-detail {
+    color:
+        #aebac9 !important;
+
+    font-size:
+        0.85rem !important;
+
+    line-height:
+        1.55 !important;
+}
+
+
+/* ---------------------------------------------------------
+   NORMAL CONTENT
+   --------------------------------------------------------- */
+
+p {
+    line-height: 1.6;
+}
+
+strong {
+    color: #f0f4fa;
+}
+
+
+/* ---------------------------------------------------------
+   INLINE CODE
+   --------------------------------------------------------- */
+
+code {
+    border:
+        1px solid
+        #20342a;
+
+    border-radius:
+        5px;
+
+    padding:
+        0.06rem
+        0.30rem;
+
+    background:
+        #101a18 !important;
+
+    color:
+        #65d99a !important;
+
+    font-size:
+        0.84em;
+}
+
+
+/* ---------------------------------------------------------
+   EXPANDER / EVIDENCE
+   --------------------------------------------------------- */
+
+[data-testid="stExpander"] {
+    border:
+        1px solid
+        var(--lab-line) !important;
+
+    border-radius:
+        10px !important;
+
+    background:
+        #0a111b !important;
+}
+
+[data-testid="stExpander"] summary {
+    color:
+        #d7e0eb !important;
+}
+
+
+/* ---------------------------------------------------------
+   SPINNER
+   --------------------------------------------------------- */
+
+[data-testid="stSpinner"] {
+    color:
+        var(--lab-muted);
+}
+
+
+/* ---------------------------------------------------------
+   RESPONSIVE
+   --------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hero {
+        padding:
+            1.6rem
+            1.5rem;
+    }
+
+    .hero::before {
+        left: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .result-card {
+        min-height: auto !important;
+    }
+}

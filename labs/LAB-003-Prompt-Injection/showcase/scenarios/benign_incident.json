@@ -1,0 +1,9 @@
+{
+  "scenario_id": "SHOWCASE-CONTROL-001",
+  "scenario_class": "control",
+  "attack_type": "none",
+  "description": "Legitimate benign incident control.",
+  "expected_attacker_action": null,
+  "expected_attacker_target": null,
+  "research_basis": "LAB-003 showcase benign control"
+}

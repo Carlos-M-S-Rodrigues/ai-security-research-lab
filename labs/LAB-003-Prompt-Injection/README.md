@@ -7,7 +7,8 @@
 ## Status
 
 ✅ Completed — eight experiments, formal evidence, comparative
-analysis and technical report published.
+analysis, technical report and practical application-security
+showcase.
 
 ## Publication
 
@@ -159,6 +160,7 @@ LAB-003-Prompt-Injection/
 ├── report/
 ├── research/
 ├── screenshots/
+├── showcase/
 └── README.md
 ```
 
@@ -199,6 +201,7 @@ LAB-003 produced:
 - MITRE ATLAS mapping
 - LinkedIn technical article
 - GitHub publication
+- Practical application-security showcase
 
 
 ## Completion State
@@ -267,3 +270,96 @@ not eliminate successful attacks.
 * [Comparative Evaluation](experiments/EXP-008-Comparative-Evaluation/README.md)
 
 <!-- LAB-003-FINAL-SUMMARY:END -->
+
+---
+
+## Practical Showcase — From Instruction Compromise to Application Impact
+
+**Status:** Completed
+
+The formal LAB-003 research above remains complete and frozen.
+
+The Practical Showcase is a separate application-security extension.
+It does not modify the original experimental matrix, the 194 attack
+executions, the 90 attacker-compliance outcomes, or the weighted
+observed ASR of 46.4%.
+
+The showcase asks a practical follow-up question:
+
+> What happens when a Prompt Injection-compromised model decision is
+> trusted by the surrounding application?
+
+To demonstrate this, LAB-003 now includes a local
+**AI Security Incident Triage Assistant** with two application
+security architectures:
+
+* **Vulnerable Application** — trusts the model-generated decision.
+* **Hardened Application** — treats the model output as a recommendation
+  and requires an external Policy Engine decision before accepting
+  high-impact actions.
+
+### Core Security Result
+
+The same Prompt Injection can exploit the model in both application
+modes.
+
+What changes is whether the compromised model output is allowed to
+produce application impact.
+
+| Scenario | Application mode | Model | Application |
+|---|---|---|---|
+| Benign Control | Vulnerable | Not exploited | Not exploited |
+| Direct Prompt Injection | Vulnerable | Exploited | Exploited in simulation |
+| Direct Prompt Injection | Hardened | Exploited | Protected |
+| Indirect Prompt Injection — Web | Vulnerable | Exploited | Exploited in simulation |
+| Indirect Prompt Injection — Web | Hardened | Exploited | Protected |
+
+In the Vulnerable Application, the model-generated high-impact request
+is trusted by the application.
+
+In the Hardened Application, the model can still be exploited, but the
+external Policy Engine prevents the compromised model decision from
+becoming application authorization.
+
+### Relationship to EXP-006
+
+The Indirect Prompt Injection showcase is based on the web-content
+attack class evaluated during:
+
+`EXP-006 — C1-V2-WEB`
+
+The formal experiment recorded:
+
+* 5 successful attacks from 6 executions.
+* 83.3% observed ASR for that condition.
+
+The showcase extends this attack class into an application-level
+decision scenario. It does not replace or recalculate the original
+EXP-006 results.
+
+### Safety Boundary
+
+All application actions in the showcase are simulated.
+
+The demonstration does not isolate hosts, change firewall policy,
+disable accounts, modify operating-system state, or execute actions
+against external infrastructure.
+
+### Practical Takeaway
+
+> **The model can fail without the application having to fail.**
+
+The architectural lesson is that LLM output should not itself be
+treated as authorization for high-impact actions.
+
+The model may recommend.
+
+The application must decide.
+
+### Showcase Artefacts
+
+* [Practical Showcase](showcase/README.md)
+* [Canonical Result Manifest](showcase/results/manifest.json)
+* [Canonical Evidence](showcase/results/canonical/)
+* [Canonical Evidence SHA-256](showcase/results/canonical-results.sha256)
+* [Canonical Result Validator](showcase/validate_canonical.py)
